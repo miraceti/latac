@@ -1,0 +1,12 @@
+python latac.py 
+--copier les  dossier telechargé da	ns le dossier job
+--puis executer dans le dossier job:
+find ./ -xdev -name "*.mp3" -exec cp {} . \;
+
+--si necessaire recopie  via:
+cp -R  t03/* t1
+cp -R  /t03/* t1
+--ou:
+cp *05.2019*.mp3 t05
+
+
